@@ -1,0 +1,133 @@
+.header {
+    background-color: white;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    border: 1px solid white;
+    z-index: 100;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+
+}
+.hamburger {
+    height: 24px;
+    margin: 0 20px 0 24px;
+}
+.youtube-logo {
+    height: 20px;
+}
+.middle-section {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+ }
+ .Search-bar {
+    flex: 1;
+    height: 37px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px 0 0 0 0.5;
+    padding-left: 10px;
+    width: 0;
+ }
+ .Search-bar::placeholder {
+    font-family: roboto;
+    font-size: 16px;
+
+}
+.icon-search {
+    height: 40px;
+    border: 1px solid;
+    margin-left: -1px;
+    position: relative;
+    background-color: rgba(251, 249, 249, 0.741);
+  }
+
+  .icon-search .sea,
+  .voice-search .sea {
+    position: absolute;
+    background-color: lightgray;
+    margin-top: 10px;
+    padding: 4px;
+    color: white;
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+    }
+
+    .icon-search:hover .sea,
+    .voice-search:hover .sea {
+        opacity: 1;
+    }
+
+  
+
+
+
+.icon-im {
+    height: 25px;
+    margin-top: 4px;
+}
+
+.voice-search {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-left: 5px;
+    background-color: rgba(251, 249, 249, 0.741);
+    border: none;
+    position: relative;
+    
+}
+
+
+.voice-im {
+    height: 25px;
+    margin-top: 4px; 
+}
+
+.right-section {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 24px;
+    flex-shrink: 0;
+}
+
+.svg, .app, .noti {
+height: 24px;
+}
+
+.noti-icon {
+    position: relative;
+}
+.noti-cont {
+    position:absolute;
+    top: -5px;
+    right: -5px;
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+    padding: 1.5px 5px 1.5px 5px;
+    font-size: small;
+    font-family: roboto;
+}
+
+.chann {
+    height: 32px;
+    border-radius: 16px;
+}
+
